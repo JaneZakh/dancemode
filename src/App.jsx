@@ -1,13 +1,19 @@
-
+import LoginForm from "./components/LoginForm";
 
 const App = () => {
-  const jane = 'jane'
 
-  return (
-    <div className="App">
-      Hello
-    </div>
-  );
+    return (
+        <div className="App">
+
+            <LoginForm />
+        </div>
+    )
 }
 
-export default App;
+export default App
+
+
+
+
+
+
